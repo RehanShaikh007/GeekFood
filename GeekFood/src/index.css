@@ -1,0 +1,274 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+
+
+/* body {
+  margin: 0;
+  display: flex;
+  /* place-items: center; */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.navbar section{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.nav1{
+  /* border: 2px solid blue; */
+  height: 10px;
+  
+}
+.nav1:hover{
+  cursor: pointer;
+}
+.nav1 img{
+  margin-right: 10%;
+  width: 4rem;
+}
+.nav1 h1{
+  font-size: 2rem;
+}
+ .nav2{
+  /* border: 2px solid red; */
+  width: 40%;
+  justify-content: space-between;
+  text-decoration: none;
+ }
+ .nav2 h3:hover{
+  cursor: pointer;
+  color: blue;
+ }
+ .nav3 button{
+     background-color: rgb(29 78 216);
+     color: white;
+     border-radius: 10px;
+     border-style: none;
+     padding: 0.8em 0.1em;
+     margin-right: 5%;
+     width: 10em;
+     font-size: 1em;
+
+    
+ }
+ .nav3 button:hover{
+  cursor: pointer;
+  background-color: darkblue;
+ }
+
+ .section1{
+  margin-top: 6%;
+  /* border: 2px solid red; */
+  width: 100vw;
+  /* position: absolute; */
+
+ }
+ .section1 img{
+  height: 650px;
+  width: 100%;
+ }
+
+ .section1 section h1{
+   /* border: 2px solid white; */
+   width: 40%;
+   font-size: 3em;
+   text-align: center;
+   padding-left: 5%;
+ }
+
+ .section1 section{
+  position: absolute;
+  top: 30%;
+  left: 18%;
+  /* border: 2px solid yellow; */
+  
+ }
+ .section1 section p{
+  text-align: center;
+  /* border: 2px solid white; */
+  width: 50%;
+  font-size: 1.2em;
+ }
+
+ .searchbtn{
+  background-color: rgb(202, 21, 66);
+  color: white;
+  border-style: none;
+  padding: 1em 3em;
+  margin-right: 2%;
+  border-radius: 5px;
+ }
+
+ .searchbtn:hover{
+  cursor: pointer;
+  background-color: rgb(143, 7, 41);
+ }
+ .knowbtn{
+  background-color: white;
+  color: rgb(190, 18, 60);
+  border-style: none;
+  padding: 1em 3em;
+  border-radius: 5px;
+
+ }
+
+ .knowbtn:hover{
+  cursor: pointer;
+  color: rgb(143, 7, 41);
+ }
+
+.section_main{
+  /* border: 2px solid red; */
+  padding: 5% 2.5%;
+  display: flex;
+}
+
+.left_sec2{
+  /* border: 2px solid yellow; */
+  width: 50%;
+  z-index: 10;
+
+}
+.left_sec2 img{
+  width: 110%;
+  margin-top: 10%;
+  height: 500px;
+}
+
+.right_sec2{
+  /* border: 2px solid green; */
+  width: 50%;
+  padding: 10% 7% 10% 12%;
+  background-color: rgb(243, 244, 246);
+}
+
+.right_sec2 h1{
+  font-size: 2em;
+}
+
+
+.right_sec2 button{
+  background-color: rgb(29 78 216);
+  color: white;
+  border-style: none;
+  padding: 2% 6%;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+.right_sec2 button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(29 78 216);
+  border: 1px solid rgb(29 78 216);;
+}
+
+.section3_main{
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 5% 12.5%;
+  justify-content: space-between;
+}
+
+.sec3_one{
+  /* border: 2px solid blue; */
+  width: 30%;
+}
+.s3_o_mn{
+  /* border: 2px solid black; */
+}
+.s3_o_cnt{
+  padding: 5%;
+  background-color: rgb(245, 247, 248);
+  border-radius: 10px;
+}
+.s3_o_tl img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+.s3_o_tl{
+  display: flex;
+  align-items: center;
+  /* border: 2px solid violet; */
+  margin-bottom: 10%;
+}
+.s3_o_tl p{
+  font-size: 1em;
+}
+
+.s3_o_tl_cnt{
+  /* border: 2px solid green; */
+  line-height: 0;
+}
+
+.sec3_two{
+  /* border: 2px solid blue; */
+  width: 30%;
+}
+
+.sec3_three{
+  /* border: 2px solid blue; */
+  width: 30%;
+}
+
+
+.footer_main{
+  text-align: center;
+  background-color: rgb(243, 244, 246);
+
+}
+
+.footer_main img{
+  margin-top: 2.5%;
+  margin-bottom: 1.5%;
+  width: 200px;
+}
+
+.footer_main p{
+  margin: auto;
+  width: 28%;
+}
+
+.footer_title{
+  display: flex;
+  margin: auto;
+ width: 40%;
+ justify-content: space-between;
+ margin-top: 4%;
+}
+.footer_title h4:hover{
+  cursor: pointer;
+  color: grey;
+}
+.footer_icons svg:hover{
+  cursor: pointer;
+  color: grey;
+
+}
+
+.footer_icons{
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  padding-bottom: 5%;
+}
