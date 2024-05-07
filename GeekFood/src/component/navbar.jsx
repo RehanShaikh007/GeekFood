@@ -9,8 +9,8 @@ const Navbar = () =>{
         </section>
          
           <section className="nav2">
-             <h3 style={{color:"blue"}}>Home</h3>
-             <h3>Quote</h3>
+             <h3>Home</h3>
+             <h3 style={{color:"blue"}}>Quote</h3>
              <h3>Restaurants</h3>
              <h3>Foods</h3>
              <h3>Contact</h3>
